@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Romântico - Fofinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page" id="page1">
+            <div class="content">
+                <h1>Bem-vindo(a) a um mundo cheio de carinho, surpresas e emoção! 💖</h1>
+                <p>Prepare-se para viver algo mágico. Insira seu apelido especial e deixe a magia começar!</p>
+                <input type="text" id="nickname" placeholder="Digite aqui seu apelido fofinho... 💕">
+                <button onclick="goToPage2()">Quero Participar!</button>
+            </div>
+        </div>
+
+        <div class="page" id="page2" style="display:none;">
+            <div class="content">
+                <h1>Escolha um nome só seu para esta aventura mágica:</h1>
+                <input type="text" id="nickname2" placeholder="Digite seu apelido... 💖">
+                <button onclick="goToPage3()">Vamos Começar!</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
